@@ -1,1 +1,2 @@
 - I am Yashraj Patil currently learning Git.
+- Learning Git is Awesome.

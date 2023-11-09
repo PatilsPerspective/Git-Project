@@ -1,0 +1,68 @@
+Git Installation:
+- Download Git for your operating system from the official Git website: https://git-scm.com/
+
+Git Configuration:
+- Set username and email address when you install Git.
+- Set the name you want to be linked to your commit transactions:-
+  git config --global user.name "Your Name"
+
+- Set the email you want to be linked to your commit transactions:
+  git config --global user.email "sample@mail.com"
+
+- To check your configuration settings:-
+  git config --list
+
+
+Getting a Git Repository
+- Initializing a Git Repository in a Local Directory
+- It creates a new .git subdirectory in your current working directory:-
+  #Open the terminal and navigate to your project folder:-
+  cd [folder_name]
+
+  #Run the following command to create a new Git repository:-
+  git init
+
+- Basic Git Commands:-
+  #Shows Hidden Files:-
+  ls -a
+
+  #Adds untracked files to the staging area:-
+  git add [file_name]
+
+  #Unstage the file without committing:-
+  git restore --staged [file_name]
+
+  #Shows the state of working tree and staging area. Changes have been made/staged, which haven't been tracked by Git:-
+  git status
+
+  #Captures a snapshot of changes in the staging area with a descriptive message:-
+  git commit -m "[message]"
+
+  #Lists history for the current branch:-
+  git log
+  
+  - Create a New Repository on GitHub
+  
+  -   #Configure Remote Reopsitory:-
+  git remote add origin [url]
+
+  #Showing Your Remote Server Configuration:-
+  git remote -v
+
+- Pushing From Local To Your Remote Repository:-
+  #Upload all local branch commits to GitHub:-
+  git push -u origin master
+
+- To push the code to the GitHub repository, we have to create a "Personal Access Token" in GitHub.
+
+- Enter your GitHub Username and for your Password follow the steps given below:
+1. Click on your profile picture in the top-right corner of the screen. Then select "Settings" from the dropdown menu. In the left sidebar, click on "Developer settings" and then choose "Personal access tokens".
+
+2. Click on the "Generate new token" button.
+
+3. Provide a descriptive note for the token to remember its purpose. Select the desired scopes or permissions for the token(For pushing changes, you may need to select the "repo" or "public_repo" scope). Once you've selected the appropriate settings, click on the "Generate token" button.
+
+4. After generating the token, GitHub will display it on the screen. This token is only shown once, so make sure to copy it to a safe location.
+
+
+For More Visit: www.yashrajpatil.cf

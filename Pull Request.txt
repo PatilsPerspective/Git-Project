@@ -1,0 +1,37 @@
+Steps to Submit a Pull Request
+- First, Fork the repository you want to contribute.
+
+- Clone a repository that already exists on GitHub which includes all of the files, branches and commits:-
+  git clone [url]
+
+- Connecting Local Repository to Remote Repository
+If the remote repository refers to the original remote repository from which you forked, then use the name of the URL as "upstream".
+  #Configure Remote Reopsitory:-
+  git remote add upstream [url]
+
+  #Showing Your Remote Server Configuration:-
+  git remote -v
+
+- Make Required Changes To the Project.
+
+- Never commit to the master branch, always create a new branch.
+  #Create a New Branch:-
+  git branch [branch_name]
+
+  #Switch branch:-
+  git switch [branch name]    | Version 2.23
+  OR
+  git checkout [branch name]
+
+  #Delete the specified branch:-
+  git branch -d [branch_name]
+
+- To update your current local working branch with a remote branch on GitHub:-
+  git pull upstream master
+  #git pull is a combination of git fetch and git merge.
+
+- Commit the changes made. Push to the remote repository. The maintainer will give some suggestions and run some tests. Make the changes they recommend.
+
+- Finally, PR is merged!
+
+For More Visit: www.yashrajpatil.cf

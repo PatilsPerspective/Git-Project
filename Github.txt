@@ -1,0 +1,12 @@
+What is Git?
+- Git is an open-source distributed version control system.
+- Git maintains the history of the project. At what particular time which person made which changes were in the project.
+- It was created by Linus Torvalds in 2005.
+- The mechanism used by Git for checksumming is called SHA-1 hash. It is 40 character string composed of hexadecimal characters (0-9 and a-f).
+- Checksum refers to the changes made to the contents of any directory before it is stored.
+- SHA-1 hash looks like this: 3b52f8696cd62987aa49d3b0037324b9da655225
+
+What is GitHub?
+- GitHub is a platform for hosting Git repositories.
+- GitHub is a collaboration platform built on top of a distributed version control system called Git.
+
